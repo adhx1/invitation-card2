@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #0ffdd2, #4967ea);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .invitation-card {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .invitation-card h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .event-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fe9000;
+  }
+  
+  .organization {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #2980b9;
+  }
+  
+  .details p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #888;
+  }
+  
